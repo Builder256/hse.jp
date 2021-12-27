@@ -1,0 +1,169 @@
+body {
+				background-color: #222;
+				color: #fff;
+				margin: 0;
+				font-family: 'M PLUS 1p', sans-serif;
+}
+
+header {
+				background-color: #333;
+				margin: 0;
+				display: flex;
+				justify-content: space-between;
+				padding: 10px 0;
+		  position: fixed;
+				width: 100%;
+}
+
+img {
+				vertical-align: top;
+}
+
+h1, h2, h3, h4 {
+				font-weight: normal;
+}
+
+a {
+				color: white;
+				text-decoration: none;
+}
+
+.header-logo {
+				height: 40px;
+				padding-left: 10px;
+}
+
+#navMenu-burger {
+				display: none;
+}
+
+.navbar {
+				display: flex;
+				align-items: center;
+}
+
+.navbar-item {
+				padding: 0 0.5rem;
+			 text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+.nav-space {
+			height: 60px;
+}
+
+.eye-catch {
+				background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.4)), url("../images/eye-catch.jpg") center left;
+				width: auto;
+				height: 50vw;
+				display: flex;
+				justify-content: center;
+				align-items: center;
+}
+
+.eye-catch-text {
+		  
+}
+
+.eye-catch-title {
+				margin: 0;
+				text-align: center;
+				font-size: 2rem;
+}
+
+.eye-catch-subtitle {
+				margin: 0;
+				text-align: center;
+				font-size: 1.4rem;
+}
+
+.section-title {	
+    text-align: center;
+}
+
+.article {
+				background: #333;
+			 padding: 0.5rem;
+			 margin: 1rem;
+}
+
+.article-title {
+				text-align: center;
+				font-size: 2rem;
+				margin: 0.5rem;
+}
+
+.article-image {
+				width: 100%;
+}
+
+.works-title {
+				font-size: 2rem;
+				margin: 0.5rem;
+}
+
+.flex-mobile {
+				display: flex;
+}
+
+.section {
+				
+}
+
+.footer {
+				background: #333;
+				text-align: center;
+				padding: 2rem 0 3rem;
+}
+
+@media screen and (min-width: 501px){
+.article {
+				width: 50%;
+}
+}
+
+@media screen and (max-width: 500px) {
+
+.navbar {
+				display: none;
+				position: fixed;
+				top: 60px;
+				width: 100%;
+}
+
+#navMenu-burger {
+    display: inline;
+				font-size: 2.5rem;
+				padding-right: 10px;
+}
+
+.navbar-open {
+				display: inline;
+}
+
+.navbar-item	 {
+				background: #333;
+				display: block;
+				padding: 1rem;
+				border-top: 1px solid #555;
+				text-decoration: none;
+}	
+
+.flex-mobile {
+				display: block;
+}
+
+.article {
+    
+}
+
+}
